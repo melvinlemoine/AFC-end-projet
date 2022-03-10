@@ -1,0 +1,33 @@
+body
+    font-family: "Poppins", sans-serif
+
+.header
+    height: 50vh
+
+    background-image: url('https://images.pexels.com/photos/1252873/pexels-photo-1252873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+
+    &__overlay
+        background-color: rgba(#4700a5, .85)
+
+.news
+    &__grid
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        gap: 1rem
+
+        &_article
+            background-color: #F3F5FD
+            overflow: hidden
+
+            &_image
+                height: 10rem
+                background-image: url('https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+
+            &_content
+                &_categories
+                    &_category
+                        background-color: blue
+                        color: white
+
+                        &.orange
+                            background-color: orange

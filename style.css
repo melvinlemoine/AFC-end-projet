@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  height: 50vh;
+  background-image: url("https://images.pexels.com/photos/1252873/pexels-photo-1252873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.header__overlay {
+  background-color: rgba(71, 0, 165, 0.85);
+}
+
+.news__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.news__grid_article {
+  background-color: #F3F5FD;
+  overflow: hidden;
+}
+
+.news__grid_article_image {
+  height: 10rem;
+  background-image: url("https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.news__grid_article_content_categories_category {
+  background-color: blue;
+  color: white;
+}
+
+.news__grid_article_content_categories_category.orange {
+  background-color: orange;
+}
+/*# sourceMappingURL=style.css.map */
